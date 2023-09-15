@@ -23,12 +23,3 @@
     left: 15px;
     bottom: 15px;
 }
-
-.nav__circle {
-    width: 5px;
-    height: 5px;
-    background-color: tomato;
-    border-radius: 50%;
-    display: inline;
-    position: absolute;
-}
