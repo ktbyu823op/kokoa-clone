@@ -44,3 +44,12 @@
     margin-bottom: 10px;
     display: block;
 }
+
+.user-component__phone-number {
+    display: flex;
+    align-items: flex-end;
+}
+.user-component__phone-number>span {
+    color: tomato;
+    margin-left: 6px;
+}
