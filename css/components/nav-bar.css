@@ -18,8 +18,38 @@
     position: relative;
 }
 
+@keyframes notificationAnimation {
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translateY(-5px) rotateY(360deg);
+    }
+    100%{
+        transform: none;
+    }
+}
+
 .nav__notification {
     position: absolute;
     left: 15px;
     bottom: 15px;
+    animation: notificationAnimation 3s ease-in-out infinite;
+}
+
+@keyframes appearBtnAnimation {
+    from{
+        transform: translateY(80px);
+    }
+    to{
+        transform: none;
+    }
+}
+
+.nav__btn {
+    animation: appearBtnAnimation 1s ease-in-out;
+}
+
+.nav__btn--friends {
+    animation-delay: 1s;
 }
